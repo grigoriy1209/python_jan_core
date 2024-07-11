@@ -135,9 +135,9 @@ def update_list():
 def square(n):
     for i in range(n):
         if i == 0 or i == n - 1:
-            print('*' * n)
+            print('  *' * n)
         else:
-            print('*' + '    ' * (n - 2) + '*')
+            print(' *' + '    ' * (n - 2) + ' * ')
 
 
 # 3) вывести табличку множення за допомогою цикла while
