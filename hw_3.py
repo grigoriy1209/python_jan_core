@@ -83,6 +83,7 @@ class Prince(Human):
             if cinderella.foot_size == self.shoe_size:
                 print(cinderella)
                 return
+            print('Not found')
 
 
 cinderellas_arr: list[Cinderella] = [
@@ -160,9 +161,10 @@ Main.add(Book('Book2'))
 Main.add(Book('Book2'))
 Main.add(Book('Book2'))
 
-
 print('-' * 40)
 Main.show_all_magazines()
 print('-' * 40)
 Main.show_all_books()
+
+
 
